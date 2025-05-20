@@ -1,0 +1,47 @@
+@import "tailwindcss";
+.Header1,.Footer1,.Content1{
+  background-color: brown;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 1px;
+  font-family: 'Times New Roman', Times, serif;
+  box-shadow:0px 0px 10px black,0px 0px 10px black inset;
+  text-shadow: 5px 5px 5px black;
+  font-size: x-large;
+  margin: 1px;
+
+}
+.Footer1{
+  background-color: rgb(53, 243, 15);
+}
+.Content1{
+ 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(216, 203, 147);
+  height:90vh;
+  color: black;
+  &{
+    input,button{
+      padding: 5px;
+      text-align: center; 
+      font-size: x-large;
+      border: 1px solid blue;
+      border-radius: 1px;
+      color: beige;
+      background-color: rgba(0, 0, 255, 0.418);
+   font-size: 26px;
+    }
+    
+  }
+
+}
+.B{
+  color: rgb(2, 87, 7);
+  font-size: xx-large;
+}
