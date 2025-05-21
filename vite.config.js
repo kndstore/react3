@@ -7,5 +7,6 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),],
   
-  base:"/vite-react-deploy",
+ 
+  base:"/react4",
 })

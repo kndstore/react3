@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 
 export default function Content(prpps) {
- const [v1,setV1]=useState( 00)
+ const [v1,setV1]=useState( 0)
  const [v2,setV2]=useState(0)
- const [resultat,setresultat]=useState(000)
+ const [resultat,setresultat]=useState(0)
  const calculer=()=>{
     setresultat(parseInt(v1)+parseInt(v2));
  }
